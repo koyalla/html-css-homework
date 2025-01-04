@@ -17,7 +17,8 @@ header {
      text-align: center;
 }     
 main {
-     display: flex; flex-destination: column;
+     display: inline-block; 
+     padding: 15px;
      justify-content: space-between;
 }
 footer {
