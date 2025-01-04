@@ -20,46 +20,24 @@
             margin-bottom: 10px; /* Отступ снизу для разделения блоков */
         }
 
-        /* Flexbox для горизонтального меню навигации */
-        nav {
-            display: flex; /* Flex-контейнер для горизонтальной навигации */
-            justify-content: space-between; /* Равномерно распределяем ссылки по всей ширине */
-        }
-
-        .nav-link {
-            color: blue; /* Цвет текста ссылок */
-            text-decoration: none; /* Убираем подчеркивание у ссылок */
-            font-size: 16px; /* Размер шрифта */
-        }
-
         main {
             align-items: center; /* Центрируем дочерние элементы (новости) по горизонтали */
         }
 
-        .news-container {
-            display: flex; /* Flex-контейнер для блока с новостями */
-            justify-content: space-between; /* Распределяем новости с равными промежутками между ними */
-            flex-wrap: wrap; /* Если новости не помещаются, они переносятся на следующую строку */
-            gap: 20px; /* Отступы между новостными блоками */
+        .products-container {
+            display: flex; 
+            justify-content: space-between;
+            flex-wrap: wrap; 
+            gap: 20px;
         }
 
-        .news-item {
-            display: flex; /* Flex-контейнер для каждого блока новости */
-            flex-direction: column; /* Размещаем содержимое вертикально */
-            width: 300px; /* Задаем ширину 30%, чтобы три блока поместились в одной строке */
-            padding: 15px; /* Внутренний отступ вокруг контента */
+        .product {
+            display: flex; 
+            flex-direction: column;
+            width: 300px;
+            padding: 15px;
             border: 1px solid #ddd; /* Граница блока для визуального отделения */
             background-color: #fff; /* Белый фон для контраста с фоном страницы */
-        }
-
-        /* Flexbox для футера */
-        footer {
-            flex-direction: row;
-            gap: 10px; /* Отступы между элементами футера */
-        }
-
-        footer p {
-            margin: 0; /* Убираем внешние отступы, чтобы не было дополнительных пробелов */
         }
     </style>
 </head>
