@@ -16,10 +16,10 @@ section {
     margin: 20px;
     background-color: white;
     border-radius: 8px;
-     .image {
+.image {
             width: 150px;
             height: 150px;
-            border: 10px solid black;
+            border: 20px solid black;
             textr-aligh: center;
- } 
+}           
 }
