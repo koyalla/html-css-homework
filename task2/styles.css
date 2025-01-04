@@ -17,7 +17,8 @@ header {
      text-align: center;
 }     
 main {
-     flex-destination: row;
+     display: flex;
+     justify-content: space-between;
 }
 footer {
      flex-direction: row;
