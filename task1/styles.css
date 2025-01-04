@@ -15,7 +15,7 @@ header {
      width: 150px;
      height: 150px;
      border: 20px solid black;
-     textr-aligh: center;
+     flex-direction: colum;
 }       
 section {
     padding: 20px;
