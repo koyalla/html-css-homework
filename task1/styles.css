@@ -12,10 +12,10 @@ header {
     padding: 30px 0;
 }
 .image {
-            width: 150px;
-            height: 150px;
-            border: 20px solid black;
-            textr-aligh: center;
+     width: 150px;
+     height: 150px;
+     border: 20px solid black;
+     textr-aligh: center;
 }       
 section {
     padding: 20px;
