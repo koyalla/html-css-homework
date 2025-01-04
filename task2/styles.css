@@ -19,10 +19,9 @@ header {
 main {
      display: flex;
      justify-content: space-between;
-     align-items: center;
+     flex-destination: row;
 }
 footer {
-     flex-direction: row;
      gap: 10px;
      text-align: center;
 }
