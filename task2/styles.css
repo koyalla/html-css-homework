@@ -17,9 +17,8 @@ header {
      text-align: center;
 }     
 main {
-     display: flex;
+     display: flex; flex-destination: row;
      justify-content: space-between;
-     flex-destination: row;
 }
 footer {
      gap: 10px;
