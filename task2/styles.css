@@ -14,7 +14,7 @@ header {
      background-color: #87CEFA;
      text-align: center;
 }     
-main {
+.cats-container {
      display: inline-block; 
      padding: 15px;
 }
