@@ -17,13 +17,13 @@ section {
     margin: 20px;
     background-color: white;
     border-radius: 8px;
-     .image {
+}
+.image {
             width: 150px;
             height: 150px;
             border: 10px solid black;
             textr-aligh: center;
- } 
-}
+} 
 footer {
      margin: 20px;
      line-height: 1
