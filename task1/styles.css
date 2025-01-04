@@ -10,7 +10,12 @@ header {
     color: white;
     text-align: center;
     padding: 30px 0;
-}     
+}
+img {
+     display: block;
+     width: 60%;
+     margin: auto;
+}
 section {
     padding: 20px;
     margin: 20px;
