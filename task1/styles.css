@@ -2,13 +2,13 @@ body {
      font-family: Times New Roman, sans-serif;
      margin: 0;
      padding: 0;
-     background-color: #876C99;
+     background-color: e0ccff;
     /* Задаём светло-серый цвет фона для страницы. */
     line-height: 1.6;
 }
 
 header {
-    background-color: #9400D3;
+    background-color: b69eff;
     color: white;
     text-align: center;
     padding: 30px 0;
