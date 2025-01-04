@@ -15,7 +15,7 @@ image {
             width: 150px;
             height: 150px;
             border: 10px solid black;
-            display: flex;
+            textr-aligh: center;
 }
 section {
     padding: 20px;
