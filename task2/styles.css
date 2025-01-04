@@ -3,34 +3,7 @@ body {
      margin: 0;
      padding: 0;
      background-color: #FFF8DC;
-}     
-header {
-    background-color: #87CEFA;
-    color: white;
-    text-align: center;
-    padding: 30px 0; 
-}
-section {
-    display:flex
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-    border-radius: 8px;
-    line-height: 1.6;
-    text-align: center
-}
-.image {
-     width: 150px;
-     height: 150px;
-     border: 10px solid black;
-     text-align: center;
-     display: flex
-} 
-footer {
-     margin: 20px;
-     line-height: 1
-     text-align: center;
-}  
+}       
 header, main, footer {
             display: flex;
             flex-direction: column;
@@ -38,4 +11,14 @@ header, main, footer {
             padding: 20px;
             background-color: white;
             margin-bottom: 10px;
+}
+main {
+     align-items: center; /* Центрируем дочерние элементы (новости) по горизонтали */
+}
+footer {
+     flex-direction: row;
+     gap: 10px; /* Отступы между элементами футера */
+}
+footer p {
+     margin: 0; /* Убираем внешние отступы, чтобы не было дополнительных пробелов */
 }
