@@ -22,10 +22,10 @@ section {
             width: 150px;
             height: 150px;
             border: 10px solid black;
-            textr-aligh: center;
+            text-align: center;
 } 
 footer {
      margin: 20px;
      line-height: 1
-     text-aligh: center;
+     text-align: center;
 }  
