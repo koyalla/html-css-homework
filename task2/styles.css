@@ -16,7 +16,8 @@ section {
     margin: 20px;
     background-color: white;
     border-radius: 8px;
-    line-height: 1.6; 
+    line-height: 1.6;
+    text-align: center
 }
 .image {
             width: 150px;
