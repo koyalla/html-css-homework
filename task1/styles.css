@@ -10,13 +10,7 @@ header {
     color: white;
     text-align: center;
     padding: 30px 0;
-}
-section_0 {
-     width: 150px;
-     height: 150px;
-     border: 20px solid black;
-     flex-direction: colum;
-}       
+}     
 section {
     padding: 20px;
     margin: 20px;
