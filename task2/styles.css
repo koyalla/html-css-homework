@@ -20,10 +20,11 @@ section {
     text-align: center
 }
 .image {
-            width: 150px;
-            height: 150px;
-            border: 10px solid black;
-            text-align: center;
+     width: 150px;
+     height: 150px;
+     border: 10px solid black;
+     text-align: center;
+     display: flex
 } 
 footer {
      margin: 20px;
